@@ -37,8 +37,12 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"@mmstudio/am000003": "1.0.202003191628"
+	},
 	"devDependencies": {
+		"@mmstudio/am000001": "latest",
+		"@types/react-native": "latest",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"del-cli": "latest",
@@ -46,5 +50,9 @@
 		"eslint-config-prettier": "latest",
 		"eslint-plugin-import": "latest",
 		"typescript": "next"
+	},
+	"peerDependencies": {
+		"@mmstudio/am000001": "*",
+		"@types/react-native": "*"
 	}
 }
