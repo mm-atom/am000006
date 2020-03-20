@@ -9,7 +9,7 @@ export default async function nodejs<T>(mm: am1, service: string, msg: unknown) 
 		credentials: 'include',
 		headers: {
 			'Content-Type': 'application/json',
-			'User-Agent': 'feidao-mobile'
+			'User-Agent': 'mm-mobile'
 		},
 		method: 'POST'
 	});
