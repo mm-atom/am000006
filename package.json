@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/am000006",
-	"version": "1.0.202003200922",
+	"version": "1.0.202003200941",
 	"description": "调用nodejs服务",
 	"scripts": {
 		"test": "tsc -w",
