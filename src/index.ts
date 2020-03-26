@@ -1,9 +1,8 @@
-import am1 from '@mmstudio/am000001';
 import am3 from '@mmstudio/am000003';
 
-export default async function nodejs<T>(mm: am1, service: string, msg: unknown) {
+export default async function nodejs<T>(service: string, msg: unknown) {
 	const body = JSON.stringify(msg);
-	const url = `${am3(mm, 'host')}/sendmessage/${encodeURIComponent(service)}`;
+	const url = `${am3('host')}/sendmessage/${encodeURIComponent(service)}`;
 	const ret = await fetch(url, {
 		body,
 		credentials: 'include',
