@@ -39,7 +39,7 @@
 	],
 	"license": "MIT",
 	"dependencies": {
-		"@mmstudio/am000003": "1.0.202003261651"
+		"@mmstudio/am000003": "1.0.202004170847"
 	},
 	"devDependencies": {
 		"@types/react-native": "latest",
